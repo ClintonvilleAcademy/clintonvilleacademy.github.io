@@ -101,17 +101,31 @@ If any of the club members have public speaking chops, or would like to try it o
 * Brainiac deep dive: [Using an abacus to calculate in Base 18](http://cautery.blogspot.com/2013/04/base-eighteen-on-chinese-abacus.html)
 
 ### <a name="week07"> Week 7, January 9
+
 ### <a name="week08"> Week 8, January 23
+
 ### <a name="week09"> Week 9, January 30
+
 ### <a name="week10"> Week 10, February 6
+
 ### <a name="week11"> Week 11, February 13
+
 ### <a name="week12"> Week 12, February 27
+
 ### <a name="week13"> Week 13, March 6
+
 ### <a name="week14"> Week 14, March 13
+
 ### <a name="week15"> Week 15, March 20
+
 ### <a name="week16"> Week 16, April 3
+
 ### <a name="week17"> Week 17, April 10
+
 ### <a name="week18"> Week 18, April 24
+
 ### <a name="week19"> Week 19, May 1
+
 ### <a name="week20"> Week 20, May 8
+
 More soon!
