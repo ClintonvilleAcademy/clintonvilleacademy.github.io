@@ -11,7 +11,7 @@ Each year will have a unique project that's fairly ambitious, and we will spend 
 
 ### Who are you? What are your qualifications.
 
-I'm [Curtis Autery](mailto:ceautery@gmail.com), father to Scout, and will be leading the group the first year. I have been a tech enthusiast since I was a boy, and have been in the professional IT world since 1995. I'm currently a lead software engineer at [Updox](https://www.updox.com/company), and demos of my various side projects throughout the years are available on my [current](http://curtisautery.appspot.com) and [previous](http://cautery.blogspot.com) blogs.
+I'm [Curtis Autery](mailto:ceautery@gmail.com), father to Scout, and will be leading the group the first year. I have been a tech enthusiast since I was a boy, and have been in the professional IT world since 1995. I'm currently a lead software engineer at [Mutually Human](https://www.mutuallyhuman.com/), and demos of my various side projects throughout the years are available on my [current](http://curtisautery.appspot.com) and [previous](http://cautery.blogspot.com) blogs.
 
 In the early 2000s, I volunteered at Tech Corps Ohio, and was placed at a school where I taught their three classes of 5th graders (60 kids total) how to make Excel spreadsheets and Powerpoint slideshows; the school liked my work well enough to invite me back for a second year. Around the same time, I volunteered at my eldest (now 20!) daughter’s elementary school, where I ran a before-school program to help a group of kids plot stock market data to see which grade picked the best stock that year. I’ve done other work with kids, from tutoring a handful of 3rd graders one year, to mentoring a teen boy for many years with Northwest Counseling, and even to a couple of less than stellar soccer seasons here at Clintonville. Um… sorry about that.
 
@@ -45,7 +45,7 @@ The code in progress will be a project in the [club's GitHub organization page](
 
 For year one, there should be no cost to parents. All the tools we will use are free, and I will commit to cover any event speaking fees this year.
 
-# Who can be in the club? How many?
+### Who can be in the club? How many?
 
 Because I want to help the group learn skills that are more sophisticated than you find in the “Hour of Code” project, I’d like to restrict this to just middle school. I think we should cap year one at 10 kids, maybe 12 if there’s a big interest. Any more than that and our meetings will switch from truly collaborating to me lecturing, which sort of defeats the purpose.
 
