@@ -1,0 +1,15 @@
+# Setup
+title:        Clintonville Academy Computer Club
+tagline:      Showcasing student-created work
+baseurl:      ""
+
+# About/contact
+author:
+  name:       Curtis Autery
+  url:        https://curtisautery.appspot.com/
+
+# Gems
+gems:
+
+#Others
+markdown: kramdown

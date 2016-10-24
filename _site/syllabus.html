@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+  <meta charset="UTF-8">
+  <title>Clintonville Academy Computer Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#157878">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/css/cayman.css">
+  <link rel="stylesheet" href="/css/site.css">
+</head>
+
+  <body>
+    <section class="page-header">
+  <h1 class="project-name">Clintonville Academy Computer Club</h1>
+  <h2 class="project-tagline">Showcasing student-created work</h2>
+  <a href="/index.html" class="btn">Main</a>
+  <a href="/blog.html" class="btn">Blog</a>
+  <a href="/syllabus.html" class="btn">Syllabus</a>
+</section>
+
+    <section class="main-content">
+      
+      <h3 id="syllabus-for-20162017-school-year">Syllabus for 2016/2017 school year</h3>
+
+<p>Meetings will happen after school in the computer lab on Mondays, starting at around 3:30 (giving you some time to decompress after the school day) and lasting until roughly 5:30. If you need to leave earlier, because a parent comes early, or you’re worn out from a long day, or just have mounds of homework, that’s perfectly fine.</p>
+
+<p>At each meeting, we’ll start with a new programming concept, and an old-school video game that uses it. I’ll show you how to use the week’s concept in JavaScript, then we’ll take a short break before splitting into small groups. Groups can start to implement the feature into our game (two groups working on the same thing is fine), or do related gamework such as making artwork for characters and cut scenes, or writing storylines and dialog.</p>
+
+<p>At the end of each meeting, we’ll discuss the work on the game so far, including any new ideas or direction for the game that you have. Lastly, I’ll send myself any new code or art changes that need to be merged into the project, and then finish with a “Geek of the week” pop-culture trinket that can be anything from a reference to a 1970s anime show, video game bugs, or maybe something from classic hacker lore.</p>
+
+<p>That night, I’ll send out an email to your parents talking about our progress, and a link to and more detailed description of a “Brainiac deep dive” that budding software engineers can study to improve their street cred, glance at briefly and say “man, that’s crazy”, or ignore entirely.</p>
+
+<p>Here is a (currently incomplete) general outline for each meeting, followed by more detailed descriptions:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">Date</th>
+      <th style="text-align: left">Topic</th>
+      <th style="text-align: left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Every meeting</td>
+      <td style="text-align: left">Art, story, plot</td>
+      <td style="text-align: left">Talk about your vision for the game, draw stuff, write plot, dialog, character backstories</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week01">November  7</a></td>
+      <td style="text-align: left">DOM, canvas, JavaScript</td>
+      <td style="text-align: left">Intro to HTML5 canvases and animation concepts, decide what type of game we want, learn about Github</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week02">November 14</a></td>
+      <td style="text-align: left">Conway’s Game of Life</td>
+      <td style="text-align: left">List/Object handling, drawing basic shapes, iterating</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week03">November 21</a></td>
+      <td style="text-align: left">Pong to Breakout</td>
+      <td style="text-align: left">requestAnimationFrame, collision detection, event handling</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week04">November 28</a></td>
+      <td style="text-align: left">Prince of Persia</td>
+      <td style="text-align: left">Rotoscoping! Discuss turning filmed actions into character graphics</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week05">December  5</a></td>
+      <td style="text-align: left">Tetris</td>
+      <td style="text-align: left">Context transforms, color, random numbers</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week06">December 12</a></td>
+      <td style="text-align: left">Asteroids to Flappy Bird</td>
+      <td style="text-align: left">Physics!, irregular shapes and random levels, discuss speaking at Stir Trek</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">December 19</td>
+      <td style="text-align: left">Winter Break</td>
+      <td style="text-align: left">Throughout winter break, I’ll be keeping</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">December 26</td>
+      <td style="text-align: left">Winter Break</td>
+      <td style="text-align: left">in touch through email, and looking over</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">January   2</td>
+      <td style="text-align: left">Winter Break</td>
+      <td style="text-align: left">any new code, art, or story submissions.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week07">January   9</a></td>
+      <td style="text-align: left">Early project demo</td>
+      <td style="text-align: left">Show parents our progress so far</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">January  16</td>
+      <td style="text-align: left">Martin Luther King Jr. Day</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week08">January  23</a></td>
+      <td style="text-align: left">Pacman revisited</td>
+      <td style="text-align: left">AI players, nearest neighbor, goals, sprites, function prototypes</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week09">January  30</a></td>
+      <td style="text-align: left">Zork, The Choosatron</td>
+      <td style="text-align: left">Inventory, saving game state, database concepts</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week10">February  6</a></td>
+      <td style="text-align: left">Chatroom</td>
+      <td style="text-align: left">Client/server, websockets, Node.js</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week11">February 13</a></td>
+      <td style="text-align: left">Chess</td>
+      <td style="text-align: left">Multiplayer! Using websockets for game actions</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">February 20</td>
+      <td style="text-align: left">Presidents Day</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week12">February 27</a></td>
+      <td style="text-align: left">???</td>
+      <td style="text-align: left">I’ll add more as we go.</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week13">March     6</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week14">March    13</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week15">March    20</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">March    27</td>
+      <td style="text-align: left">Record Day</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week16">April     3</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week17">April    10</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left">April    17</td>
+      <td style="text-align: left">Spring Break</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week18">April    24</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week19">May       1</a></td>
+      <td style="text-align: left"> </td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><a href="#week20">May       8</a></td>
+      <td style="text-align: left">Final plans</td>
+      <td style="text-align: left">Finish project, schedule demo for all of CA, discuss speaking at Code Mash in January</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="a-nameweek01-week-1-november-7"><a name="week01"> Week 1, November 7</a></h3>
+
+<p>The first week I’ll demo some of what’s possible with programming in JavaScript. I’ll draw and animate a Pacman character using no other tool than a web browser. I’ll go very fast, because there is a lot to show, but you don’t need to worry about memorizing anything just yet. This will be an introduction to the types of things that are possible with programming in JavaScript. As we progress through building the game, you’ll learn one piece at a time in more detail.</p>
+
+<p>We’ll also discuss what type of game we want to build. <em>You</em> will lead designing the game, and I will help you learn to program so you can build it. You will decide the plot, the type (I suggest a 2D sidescroller or old-school Zelda-like adventure game, because those should be achievable in one school year, and they both line up fairly well with the concepts I plan to teach.)</p>
+
+<ul>
+  <li>Geek of the week: The Pacman ghost pass-through bug</li>
+  <li>Brainiac deep dive: <a href="http://curtisautery.appspot.com/5865619656278016">Solving job interview questions in different languages</a>.</li>
+</ul>
+
+<h3 id="a-nameweek02-week-2-november-14"><a name="week02"> Week 2, November 14</a></h3>
+
+<p>This week we’ll look at the Finite Automata game “Life”, designed by the mathematician John Conway, and an implementation of it in JavaScript. The game shows the birth and death of square “cells” based on how many live cells surrounded it on the previous turn.</p>
+
+<p>Implementing Life teaches us how to handle objects, how to draw a basic shape, and how to pass variables to a generic “function” that will draw a given shape where we want it on the screen. It will also teach us about handling lists of things, such as the two dimensional “array” that we’ll need to check to see what cells are on or off.</p>
+
+<ul>
+  <li>Geek of the week: From Superfriends to Ultimen</li>
+  <li>Brainiac deep dive: <a href="https://dfns.dyalog.com/n_life.htm">Life in APL</a>. This is an implementation of Conway’s Game of Life in the obscure and very mathematical looking language “APL”.</li>
+</ul>
+
+<h3 id="a-nameweek03-week-3-november-21"><a name="week03"> Week 3, November 21</a></h3>
+
+<p>This week we will learn from the old school games Pong and Breakout how to react to user actions such as moving the mouse or pressing keys (arrow keys, in this case) by using event listeners. We will also learn some early methods of controlling how many game “frames” are painted each second, and the better modern approach using “animation frames”.</p>
+
+<ul>
+  <li>Geek of the week: The Konami Code, and ID Software’s IDCLIP</li>
+  <li>Brainiac deep dive: <a href="http://cautery.blogspot.com/2010/09/building-java-applet-sudoku-bot.html">Solving Sudoku with Java</a>.</li>
+</ul>
+
+<h3 id="a-nameweek04-week-4-november-28"><a name="week04"> Week 4, November 28</a></h3>
+
+<p>This week we’ll learn the history of rotoscoping from the 1989 Apple // game “Prince of Persia”, the first game to use live video of a person as the basis for animations. Their technique was weird, because of the limited tools available, and modern tools make the process much simpler now.</p>
+
+<p>We’ll also start deciding who is going to be our camera operator, what types of human actions we want in the game, ask for volunteers to be actors, and get parents to signoff on the process. The technical process will involve filming an action, for example running and changing direction, identify where all the limbs are in each frame of the action, and join the limb information with character art. The final in-game result will be slightly more detailed than Mario, but actions will appear more natural and fluid… because they were natural and fluid motions made by humans.</p>
+
+<p>If we end up speaking about the project at a local convention, I’d like to show some of this process, which would include raw video clips of the pre-rotoscoped actions, and possibly even a “meta” clip where a second camera is watching the whole process… hence I’m being especially sensitive to whether club members know everything involved, have volunteered, and that there aren’t any misgivings about the process from parents or school staff.</p>
+
+<ul>
+  <li>Geek of the week: 7 Zark 7</li>
+  <li>Brainiac deep dive: <a href="http://cautery.blogspot.com/2012/05/animated-prime-number-machine.html">Animated prime number machine</a>.</li>
+</ul>
+
+<h3 id="a-nameweek05-week-5-december-5"><a name="week05"> Week 5, December 5</a></h3>
+
+<p>This week we will learn from the game Tetris how to use “affine transformations” to draw a fixed shape at different positions, rotations, and sizes. We will talk about handling color, from different colorspaces, to transparency and mixing colors, and we’ll crack open the drawing tablet and the Sketchbook program, and see if drawing that way clicks with anyone.</p>
+
+<ul>
+  <li>Geek of the week: The Enigma Machine</li>
+  <li>Brainiac deep dive: <a href="http://curtisquarterly.blogspot.com/2005/05/perl-tutorial.html">Fun with command-line Perl</a></li>
+</ul>
+
+<h3 id="a-nameweek06-week-6-december-12"><a name="week06"> Week 6, December 12</a></h3>
+
+<p>This week we will learn from Asteroids, Joust, and Flappy Bird how to incorporate simple physics into our game. In Asteroids, your ship has inertia, so it slowly speeds up as you apply thrust, continues in the same direction until force (from an impact, or from thrust in a different direction) changes its vector. In Joust and Flappy Bird, gravity pulls us down, and flapping wings applies force to overcome gravity. We’ll talk about various ways to implement those effects in-game.</p>
+
+<p>The December/January timeframe is when the local tech convention “Stir Trek” starts taking submissions for talks, and the conference itself happens sometime in April or May. If we feel by this time that we’ll have a semi-functional game by April, I’d like for us to consider registering to give a talk at the conference about the club, learning to program, and the game itself. If we do that, the talk would consist of me giving a brief overview of my vision for the club, and then hand the mic off to one of you to give the main body of the presentation, while I run the computer showing our presentation slides, or whatever our media is. We will present the project to the school at some point close to the end of the year, which could function as a dress rehearsal for speaking at a conference.</p>
+
+<p>If any of the club members have public speaking chops, or would like to try it out, we can practice with some AV equipment throughout the year at a suitable location. As with the Rotoscoping video permissions above, I want to make very sure at this point that the school and the parents of any volunteers are on board with this before making a formal submission to Stir Trek’s call for speakers.</p>
+
+<ul>
+  <li>Geek of the week: Simon/Merlin</li>
+  <li>Brainiac deep dive: <a href="http://cautery.blogspot.com/2013/04/base-eighteen-on-chinese-abacus.html">Using an abacus to calculate in Base 18</a></li>
+</ul>
+
+<h3 id="a-nameweek07-week-7-january-9"><a name="week07"> Week 7, January 9</a></h3>
+<h3 id="a-nameweek08-week-8-january-23"><a name="week08"> Week 8, January 23</a></h3>
+<h3 id="a-nameweek09-week-9-january-30"><a name="week09"> Week 9, January 30</a></h3>
+<h3 id="a-nameweek10-week-10-february-6"><a name="week10"> Week 10, February 6</a></h3>
+<h3 id="a-nameweek11-week-11-february-13"><a name="week11"> Week 11, February 13</a></h3>
+<h3 id="a-nameweek12-week-12-february-27"><a name="week12"> Week 12, February 27</a></h3>
+<h3 id="a-nameweek13-week-13-march-6"><a name="week13"> Week 13, March 6</a></h3>
+<h3 id="a-nameweek14-week-14-march-13"><a name="week14"> Week 14, March 13</a></h3>
+<h3 id="a-nameweek15-week-15-march-20"><a name="week15"> Week 15, March 20</a></h3>
+<h3 id="a-nameweek16-week-16-april-3"><a name="week16"> Week 16, April 3</a></h3>
+<h3 id="a-nameweek17-week-17-april-10"><a name="week17"> Week 17, April 10</a></h3>
+<h3 id="a-nameweek18-week-18-april-24"><a name="week18"> Week 18, April 24</a></h3>
+<h3 id="a-nameweek19-week-19-may-1"><a name="week19"> Week 19, May 1</a></h3>
+<h3 id="a-nameweek20-week-20-may-8"><a name="week20"> Week 20, May 8</a></h3>
+<p>More soon!</p>
+
+
+      <footer class="site-footer">
+  <span class="site-footer-owner"><a href="http://localhost:4000">Clintonville Academy Computer Club</a> is maintained by <a href="https://curtisautery.appspot.com/">Curtis Autery</a>.</span>
+  <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/pietromenna/jekyll-cayman-theme">Cayman theme</a> by <a href="http://github.com/jasonlong">Jason Long</a>.</span>
+</footer>
+
+
+    </section>
+
+  </body>
+</html>
