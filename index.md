@@ -39,7 +39,7 @@ In the early 2000s, I volunteered at Tech Corps Ohio, and was placed at a school
 
 ### Can I see what my kid is working on?
 
-Yes. The club will be completely transparent, which is needed for better communication with parents and schools taff, and also to better help the kids collaborate with each other. You are welcome to sit in (and learn to program, if that’s interesting to you). All communication not in the normal club meetings will happen through emails to parents.
+Yes. The club will be completely transparent, which is needed for better communication with parents and school staff, and also to better help the kids collaborate with each other. You are welcome to sit in (and learn to program, if that’s interesting to you). All communication not in the normal club meetings will happen through emails to parents.
 
 The code in progress will be a project in the [club's GitHub organization page](https://github.com/ClintonvilleAcademy). Any parent or staff member with a GitHub account can join the project as a collaborator. Just let me know, and I'll send an invitation.
 
