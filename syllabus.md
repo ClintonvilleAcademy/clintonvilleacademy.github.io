@@ -53,7 +53,7 @@ The first week I'll demo some of what's possible with programming in JavaScript.
 We'll also discuss what type of game we want to build. _You_ will lead designing the game, and I will help you learn to program so you can build it. You will decide the plot, the type (I suggest a 2D sidescroller or old-school Zelda-like adventure game, because those should be achievable in one school year, and they both line up fairly well with the concepts I plan to teach.)
 
 * Geek of the week: The Pacman ghost pass-through bug
-* Brainiac deep dive: [Solving job interview questions in different languages](http://curtisautery.appspot.com/5865619656278016).
+* Brainiac deep dive: [Code challenges solved with different programming languages](http://curtisautery.appspot.com/5865619656278016).
 
 ### <a name="week02"> Week 2, November 14
 
